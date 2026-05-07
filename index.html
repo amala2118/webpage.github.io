@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amala Elsa Joseph | Web Technology</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'DM Sans', sans-serif; background: #0d0d0d; color: #f0ece3; min-height: 100vh; }
+    header { background: #111; border-bottom: 1px solid #2a2a2a; padding: 1.2rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    header h1 { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: #c9a96e; }
+    nav a { color: #aaa; text-decoration: none; margin-left: 1.5rem; font-size: 0.9rem; transition: color 0.2s; }
+    nav a:hover { color: #c9a96e; }
+    .marquee-bar { background: #c9a96e; color: #0d0d0d; padding: 0.5rem 0; font-size: 0.85rem; font-weight: 500; overflow: hidden; }
+    .hero { padding: 5rem 2rem 3rem; max-width: 860px; margin: 0 auto; }
+    .hero h2 { font-family: 'Playfair Display', serif; font-size: 3.2rem; line-height: 1.2; margin-bottom: 1rem; }
+    .hero h2 span { color: #c9a96e; }
+    .subject-badge { display: inline-block; background: #1e1e1e; border: 1px solid #2a2a2a; color: #aaa; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; margin-bottom: 2rem; }
+    .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 2rem; }
+    .info-card { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; padding: 1.2rem; }
+    .info-card h3 { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #666; margin-bottom: 0.5rem; }
+    .info-card p { font-size: 1rem; color: #f0ece3; }
+    .formatting-demo { max-width: 860px; margin: 2rem auto; padding: 0 2rem 3rem; }
+    .formatting-demo h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: #c9a96e; margin-bottom: 1.2rem; }
+    .demo-box { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; padding: 1.5rem; line-height: 2.2; font-size: 0.95rem; }
+    .demo-box p { margin-bottom: 0.8rem; color: #ccc; }
+    footer { text-align: center; padding: 1.5rem; border-top: 1px solid #2a2a2a; color: #555; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Amala Elsa Joseph</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="multimedia.html">Media</a>
+    <a href="lists.html">Lists</a>
+    <a href="tables.html">Tables</a>
+    <a href="frames.html">Frames</a>
+    <a href="form.html">Form</a>
+    <a href="mcq.html">MCQ</a>
+  </nav>
+</header>
+
+<div class="marquee-bar">
+  <marquee behavior="scroll" direction="left" scrollamount="4">
+    ✦ Welcome to Amala Elsa Joseph's Web Technology Portfolio ✦ Subject: Web Technology ✦ Exploring HTML, CSS & the Web ✦
+  </marquee>
+</div>
+
+<section class="hero">
+  <div class="subject-badge">Subject: Web Technology</div>
+  <h2>Hello, I'm <span>Amala<br>Elsa Joseph.</span></h2>
+  <p style="color:#888; max-width:540px; line-height:1.7;">A software engineering student exploring the world of web technologies — from HTML structure to dynamic interfaces and beyond.</p>
+
+  <div class="info-grid">
+    <div class="info-card">
+      <h3>Name</h3>
+      <p>Amala Elsa Joseph</p>
+    </div>
+    <div class="info-card">
+      <h3>Subject</h3>
+      <p>Web Technology</p>
+    </div>
+    <div class="info-card">
+      <h3>Focus</h3>
+      <p>HTML · CSS · JS</p>
+    </div>
+  </div>
+</section>
+
+<section class="formatting-demo">
+  <h3>Text Formatting Showcase</h3>
+  <div class="demo-box">
+    <p>
+      <b>Bold text</b> &nbsp;|&nbsp;
+      <i>Italic text</i> &nbsp;|&nbsp;
+      <u>Underlined text</u> &nbsp;|&nbsp;
+      <strong>Strong emphasis</strong> &nbsp;|&nbsp;
+      <small>Small text</small>
+    </p>
+    <p>
+      <tt>Typewriter font (tt)</tt> &nbsp;|&nbsp;
+      <strike>Strikethrough text</strike> &nbsp;|&nbsp;
+      H<sub>2</sub>O (subscript) &nbsp;|&nbsp;
+      x<sup>2</sup> (superscript) &nbsp;|&nbsp;
+      <big>Big text</big>
+    </p>
+    <p>
+      <font size="4" color="#c9a96e">Colored font tag text</font> &nbsp;|&nbsp;
+      <font size="2" color="#5bc4a0">Small green font</font>
+    </p>
+    <p>
+      Special characters: &copy; Copyright &nbsp;|&nbsp; &reg; Registered &nbsp;|&nbsp; &#169; Alt Copyright &nbsp;|&nbsp; &amp; Ampersand &nbsp;|&nbsp; &lt;tag&gt; &nbsp;|&nbsp; &hearts; Heart
+    </p>
+    <p>
+      <marquee behavior="alternate" style="width:100%; color:#c9a96e; font-style:italic;">✦ This text bounces left and right ✦</marquee>
+    </p>
+  </div>
+</section>
+
+<footer>
+  &copy; 2026 Amala Elsa Joseph &mdash; Web Technology Assignment
+</footer>
+
+</body>
+</html>
